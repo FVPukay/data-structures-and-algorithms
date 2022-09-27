@@ -14,7 +14,4 @@ var miniMaxSum = function(arr) {
     return [minSum, maxSum];
 }
 
-console.log(miniMaxSum([1000000000, 1000000000, 1000000000, 1000000000, 1000000000]));
-console.log(1000000000+ 1000000000+ 1000000000+ 1000000000+ 1000000000);
-
 module.exports = miniMaxSum;

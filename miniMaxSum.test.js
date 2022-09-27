@@ -1,4 +1,4 @@
-const miniMaxSum = require('./HackerRank/3_month_prep_kit/miniMaxSum');
+const miniMaxSum = require('./HackerRank/easy/miniMaxSum');
 
 test('min and max of 4 out of the 5 integers in the arr input', () => {
     expect(miniMaxSum([1, 3, 5, 7, 9])).toStrictEqual([16, 24]);

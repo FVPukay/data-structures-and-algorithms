@@ -1,4 +1,4 @@
-const timeConversion = require('./HackerRank/3_month_prep_kit/timeConversion');
+const timeConversion = require('./HackerRank/easy/timeConversion');
 
 test('min and max of 4 out of the 5 integers in the arr input', () => {
     expect(timeConversion('12:00:00AM')).toStrictEqual('00:00:00');

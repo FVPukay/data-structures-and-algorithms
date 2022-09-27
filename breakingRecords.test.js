@@ -1,4 +1,4 @@
-const breakingRecords = require('./HackerRank/3_month_prep_kit/breakingRecords');
+const breakingRecords = require('./HackerRank/easy/breakingRecords');
 
 test('return array of number of times min and max records broken', () => {
     expect(breakingRecords([12, 24, 10, 24])).toStrictEqual([1, 1]);
