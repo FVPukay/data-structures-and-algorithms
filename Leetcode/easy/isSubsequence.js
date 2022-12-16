@@ -9,6 +9,9 @@
  * @return {boolean}
  */
  var isSubsequence = function(s, t) {
+    // Time: O(T)
+    // Space: O(1)
+    
     let count = 0;
     
     for (let i = 0; i < t.length; i++) {
