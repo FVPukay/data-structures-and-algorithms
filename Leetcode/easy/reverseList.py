@@ -9,7 +9,7 @@ class Solution:
         next = None
         lsf = None
 
-        while (cn):
+        while cn:
             next = cn.next
             cn.next = lsf
             lsf = cn
