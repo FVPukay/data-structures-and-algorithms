@@ -1,6 +1,9 @@
 /**
  * @param {string} s
  * @return {boolean}
+ * 
+ * Time: O(N)
+ * Space: O(N)
  */
 var isValid = function(s) {
   const stack = [];
